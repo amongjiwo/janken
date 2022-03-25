@@ -4,3 +4,151 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 1440px;
+  height: 1024px;
+  background-color: #9C835F;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.symbol {
+  width: 55px;
+  height: 87px;
+  font-size: 72px;
+  margin-left: 25px;
+  margin-top: -21.5px;
+  color: #724C21;
+}
+
+.logo {
+  width: 72px;
+  height: 72px;
+  margin-left: 10px;
+}
+
+.title {
+  width: 410px;
+  height: 62px;
+  font-size: 36px;
+  margin-left: 20px;
+  color: #F9B23D;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-top: 120px;
+  margin-left: 33px;
+}
+
+.player-one {
+  position: absolute;
+  width: 299px;
+  height: 94px;
+  font-size: 36px;
+  top: 162px;
+  left: 343px;
+  word-spacing: 1px;
+  color: black;
+}
+
+.player-img {
+  display: flex;
+  flex-direction: column;
+  margin-left: 315px;
+}
+
+.rock-player {
+  width: 128px;
+  height: 92px;
+  top: 267px;
+  left: 382px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.paper-player {
+  width: 115px;
+  height: 150px;
+  top: 440px;
+  left: 388px;
+  margin-bottom: 40px;
+}
+
+.scissors-player {
+  width: 134px;
+  height: 160px;
+  top: 671px;
+  left: 369px;
+}
+
+.versus {
+  position: absolute;
+  width: 296px;
+  height: 186px;
+  font-size: 144px;
+  margin-top: -40px;
+  margin-left: 589px;
+  color: #BD0000;
+}
+
+.com {
+  position: absolute;
+  width: 299px;
+  height: 94px;
+  font-size: 36px;
+  top: 162px;
+  left: 965px;
+  word-spacing: 1px;
+  color: black;
+}
+
+.com-img {
+  display: flex;
+  flex-direction: column;
+  margin-left: 464px;
+}
+
+.rock-com {
+  width: 128px;
+  height: 92px;
+  top: 267px;
+  left: 951px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.paper-com {
+  width: 115px;
+  height: 150px;
+  top: 440px;
+  left: 970px;
+  margin-bottom: 40px;
+}
+
+.scissors-com {
+  width: 134px;
+  height: 160px;
+  top: 671px;
+  left: 951px;
+}
+
+.reset {
+  display: flex;
+  align-self: flex-end;
+  width: 77px;
+  height: 71px;
+  margin-left: 676px;
+}
