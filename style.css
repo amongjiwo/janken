@@ -79,12 +79,40 @@ body {
   margin-bottom: 40px;
 }
 
+.rock-player:hover {
+  cursor: pointer;
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -ms-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -o-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  transform: scale(110%);
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
+}
+
 .paper-player {
   width: 115px;
   height: 150px;
   top: 440px;
   left: 388px;
   margin-bottom: 40px;
+}
+
+.paper-player:hover {
+  cursor: pointer;
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -ms-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -o-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  transform: scale(110%);
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
 }
 
 .scissors-player {
@@ -94,14 +122,73 @@ body {
   left: 369px;
 }
 
+.scissors-player:hover {
+  cursor: pointer;
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -ms-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -o-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  transform: scale(110%);
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
+}
+
 .versus {
   position: absolute;
   width: 296px;
   height: 186px;
   font-size: 144px;
-  margin-top: -40px;
-  margin-left: 589px;
+  top: 242px;
+  left: 615px;
+  line-height: 196px;
+  letter-spacing: 0.1em;
   color: #BD0000;
+}
+
+.result-text {
+  display: none;
+  position: absolute;
+  width: 296px;
+  height: 186px;
+  left: 588px;
+  top: 381.37px;
+  font-size: 38px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  transform: rotate(-30.98deg);
+  -webkit-transform: rotate(-30.98deg);
+  -moz-transform: rotate(-30.98deg);
+  -ms-transform: rotate(-30.98deg);
+  -o-transform: rotate(-30.98deg);
+}
+
+.result-win, .result-draw {
+  display: none;
+  background-color: #4C9654;
+  position: absolute;
+  top: 385px;
+  left: 566px;
+  width: 271.11px;
+  height: 166.93px;
+  transform: rotate(-28.87deg);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transform: rotate(-28.87deg);
+  -moz-transform: rotate(-28.87deg);
+  -ms-transform: rotate(-28.87deg);
+  -o-transform: rotate(-28.87deg);
+}
+
+.result-draw {
+  background-color: #035B0C;
 }
 
 .com {
@@ -130,12 +217,40 @@ body {
   margin-bottom: 40px;
 }
 
+.rock-com:hover {
+  cursor: pointer;
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -ms-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -o-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  transform: scale(110%);
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
+}
+
 .paper-com {
   width: 115px;
   height: 150px;
   top: 440px;
   left: 970px;
   margin-bottom: 40px;
+}
+
+.paper-com:hover {
+  cursor: pointer;
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -ms-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -o-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  transform: scale(110%);
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
 }
 
 .scissors-com {
@@ -145,10 +260,37 @@ body {
   left: 951px;
 }
 
-.reset {
-  display: flex;
-  align-self: flex-end;
+.scissors-com:hover {
+  cursor: pointer;
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -ms-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -o-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  transform: scale(110%);
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
+}
+
+.refresh {
+  position: absolute;
   width: 77px;
   height: 71px;
   margin-left: 676px;
+}
+
+.refresh:hover {
+  cursor: pointer;
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -ms-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  -o-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  transform: scale(110%);
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
 }
