@@ -12,41 +12,48 @@
 </head>
 <body>
   <div id="header">
-    <div class="symbol">&#60</div>
-    <div class="logo">
-      <img src="assets/logo.png" alt="logo" />
-    </div>
+  <div class="symbol">&#60</div>
+  <div class="logo">
+    <img src="assets/logo.png" alt="logo" />
+  </div>
     <h1 class="title">Rock Paper Scissors</h1>
   </div>
-  <div id="app">
-    <div>
-      <h2 class="player-one">Player 1</h2>
-    </div>
-    <div class="player-img">
-      <img class="rock-player" src="assets/batu.png" alt="Rock Player" />
-      <img class="paper-player" src="assets/kertas.png" alt="Paper Player" />
-      <img class="scissors-player" src="assets/gunting.png" alt="Scissors Player" />
-    </div>
 
-    <div>
-      <h3 class="versus">VS</h3>
-      <h3 class="result-text">Player 1 Win</h3>
-      <h3 class="result-win"></h3>
-      <h3 class="result-draw"></h3>
-    </div>
+  <div id="main-content">
+  <div id="player">
+    <h2>PLAYER 1</h2>
+  <div class="player-selection">
+    <input type="image" onclick="startGame('rock')" src="assets/batu.png">
+  </div>
+  <div class="player-selection">
+    <input type="image" onclick="startGame('paper')" src="assets/kertas.png">
+  </div>
+  <div class="player-selection">
+    <input type="image" onclick="startGame('scissors')" src="assets/gunting.png">
+  </div>
+  </div>
 
-    <div>
-      <h2 class="com">Com</h2>
-    </div>
-    <div class="com-img">
-      <img class="rock-com" src="assets/batu.png" alt="Rock Com" />
-      <img class="paper-com" src="assets/kertas.png" alt="Paper Com" />
-      <img class="scissors-com" src="assets/gunting.png" alt="Scissors Com" />
-    </div>
+  <div id="versus">
+    <h2 class="versus">VS</h2>
+  </div>       
+
+  <div id="com">
+    <h2>COM</h2>
+  <div class="com-selection">
+    <input type="image" src="assets/batu.png">
   </div>
-  <div>
-    <img class="refresh" src="assets/refresh.png" alt="Refresh" />
+  <div class="com-selection">
+    <input type="image" src="assets/kertas.png">
   </div>
+  <div class="com-selection">
+    <input type="image" src="assets/gunting.png">
+  </div>
+  </div>
+
+  <div id="reset">
+    <input type="image" onclick="resetGame()" src="assets/refresh.png">
+  </div>
+</div>
   <script src="main.js"></script>
 </body>
 </html>
