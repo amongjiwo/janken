@@ -47,14 +47,56 @@ body {
   width : 134px;
 }
 
+.player-selection:hover {
+  transform: scale(110%);
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
 .com-selection > input {
   height : 160px;
   width : 134px;
 }
 
+.com-selection:hover {
+  transform: scale(110%);
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
 #reset > input {
   height : 71px;
   width : 77px;
+}
+
+#reset:hover {
+  transform: scale(110%);
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
 }
 
 #main-content {

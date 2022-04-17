@@ -35,18 +35,18 @@ class Game {
             this.resultDisplay.innerHTML = `<h2 class="draw">DRAW</h2>`;
         }
 
-        if ( 
-            (this.player.signSelection === 'rock' && this.com.signSelection === 'scissor')
+        else if ( 
+            (this.player.signSelection === 'rock' && this.com.signSelection === 'scissors')
             || (this.player.signSelection === 'paper' && this.com.signSelection === 'rock')
-            || (this.player.signSelection === 'scissor' && this.com.signSelection === 'paper')
+            || (this.player.signSelection === 'scissors' && this.com.signSelection === 'paper')
         ) {
             this.resultDisplay.innerHTML = `<h2 class="playerWin">PLAYER 1<br>WIN</h2>`;
          }
     
-    if (
+        else if (
             (this.player.signSelection === 'rock' && this.com.signSelection === 'paper')
-            || (this.player.signSelection === 'paper' && this.com.signSelection === 'scissor')
-            || (this.player.signSelection === 'scissor' && this.com.signSelection === 'rock')
+            || (this.player.signSelection === 'paper' && this.com.signSelection === 'scissors')
+            || (this.player.signSelection === 'scissors' && this.com.signSelection === 'rock')
         ) {
             this.resultDisplay.innerHTML = `<h2 class="comWin">COM<br>WIN</h2>`;
         }
@@ -56,7 +56,7 @@ class Game {
         this.generate_selection();
         setTimeout(() => {
             this.determineWinner(this.player.signSelection, this.com.signSelection);
-          }, 200)
+          }, 300)
     }
 
 }
